@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Staatliches&display=swap');
+body{
+    background: linear-gradient(50deg, #4a0202 0%, #af1414 80%);
+}
+
+.faixaTopo{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    background: #000000;    
+    color: #ffffff;
+}
+
+.curriculoVitae{
+    display: inline-block;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+
+}
+
+#fotoPerfil{
+    border-radius: 180px;
+    position: absolute;
+    margin-left: 12%;
+    width: 200px;
+    padding-bottom: 20px;
+}
+
+.logos{
+    position: absolute;
+    padding-left: 70%;
+}
+
+#logoLinkedin{
+    width: 90px;
+
+}
+
+#logoGithub{
+    width: 90px;
+    padding-bottom: 8px;
+}
+#logoInstagram{
+    width: 85px;
+    padding-bottom: 6px;
+}
+
+.nomeCurriculo{
+    color: #000000;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 70px;
+    padding-left: 5%;
+    -webkit-text-stroke: 2px white;
+}
+
+.nomeProfissao{
+    width: 300px;
+    padding: 10px;
+    margin-left: 40%;
+    margin-right: 39%;
+    background-color: black;
+    color: #dddcdc;
+    font-size: 25px;
+    text-align: center;
+}
+
+.contatos{
+    width: 90%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    display: inline-block;
+    justify-content: center;
+}
+
+#logoGmail{
+    width: 55px;
+    display: inline;
+    position: relative;
+    padding-left: 16%;
+    padding-top: 4px;
+}
+
+.emailMain{
+    font-size: 25px;
+    color: #ffffff;
+    position: absolute;
+    padding-top: 18px;
+    padding-left: 10px;
+    display: inline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#logoWhatsapp{
+    width: 65px;
+    position: absolute;
+    padding-left: 20%;
+    margin-top: 0%;
+}
+
+.telefoneMain{
+    display: inline;
+    color: #dddcdc;
+    font-size: 25px;
+    position: absolute;
+    padding-left: 25%;
+    padding-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#logoCidade{
+    display: inline;
+    width: 75px;
+    padding-left: 44%;
+    padding-bottom: 5px;
+
+}
+
+.cidadeMain{
+    display: inline;
+    position: absolute;
+    font-size: 25px;
+    color: #dddcdc;
+    padding-left: 1%;
+    padding-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+main{
+    padding-bottom: 20px;
+}
+
+.tituloPerfil{
+    color: #dddcdc;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.textoPerfil{
+    color: #dddcdc;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 18%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+    font-family: 'Staatliches', cursive;
+    border-top: solid 2px  #dddcdc;
+}
+
+.menuBottom{
+    width: 50%;
+    display: inline;
+}
+
+.idiomas{
+    width: 30%;
+    padding-top: 20px;
+    padding-left: 15%;
+    padding-right: 5%;
+    color: #dddcdc;
+    border-right: solid 2px;
+    display: inline-block;
+}
+
+.tituloIdiomas{
+    color: #dddcdc;
+    padding-top: 30px;
+    font-size: 40px;
+    font-family: 'Staatliches', cursive;
+    padding-left: 10%;
+}
+
+.listaIdiomas{
+    color: #dddcdc;
+    padding-top: 20px;
+    padding-left: 10%; 
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.itensIdiomas{
+    padding-bottom: 10px;
+}
+
+.habilidades{
+    width: 30%;
+    display: inline-block;
+    padding-left: 16%;
+}
+
+.tituloHabilidades{
+    color: #dddcdc;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+
+.itensHabilidade{
+    color: #dddcdc;
+    padding-top: 15px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.formacao{
+    width: 30%;
+    padding-top: 20px;
+    padding-left: 15%;
+    padding-right: 5%;
+    color: #dddcdc;
+    border-right: solid 2px;
+    display: inline-block;
+}
+
+.formacaoTitulo{
+    color: #dddcdc;
+    padding-top: 30px;
+    font-size: 40px;
+    font-family: 'Staatliches', cursive;
+    text-decoration: underline;
+    padding-left: 10%;
+}
+
+.listaFormacao{
+    color: #dddcdc;
+    padding-top: 20px;
+    padding-left: 10%; 
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.itensFormacao{
+    color: #dddcdc;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.objetivos{
+    width: 30%;
+    display: inline-block;
+    padding-left: 16%;
+}
+
+.objetivosTitulo{
+    color: #dddcdc;
+    font-size: 45px;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.listaObjetivos{
+    color: #dddcdc;
+    padding-top: 15px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+
+.itensObjetivos{
+    width: 400px;
+    color: #dddcdc;
+    padding-top: 15px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+
+.rodape{
+    width: 100%;
+    height: 100px;
+    background: #000000;
+    border-radius: 10px;
+}
+
+.meuNome{
+    color: #dddcdc;
+    font-size: 25px;
+    font-family: 'Bangers', cursive;
+    position: absolute;
+    padding-top: 40px;
+    padding-left: 82%;
+}
+
+.fraseFinal{
+    color: #dddcdc;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    padding-top: 70px;
+    padding-left: 78%;
+    display: none;
+}
